@@ -1,6 +1,6 @@
 const datevalid=(dd,mm,yy)=>
 {
-   if(yy>=1899 && yy<=9999)
+   if(yy>0 && yy<=9999)
     {
         if(mm>=1 && mm<=12)
         {
